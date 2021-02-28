@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="tabcolor">#0E2A5A</color>
+    <color name="zhichu">#C12222</color>
+    <color name="shouru">#00574B</color>
+
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="grey">#eeeeee</color>
+    <color name="dark_grey">#888888</color>
+    <color name="blue">#2DCD70</color>
+    <color name="gold">#ffffd700</color>
+    <color name="transparent">#00000000</color>
+    <color name="translucent">#99000000</color>
+    <color name="blue_light">#aaaaff</color>
+    <color name="gray_blue">#132449</color>
+    <color name="purple">#D81B60</color>
+
+    <color name="dark_blue">#010C1F</color>
+
+    <color name="gray">#E9D5D0D0</color>
+
+    <color name="little_blue">#8B18254D</color>
+
+    <color name="pink">#DB819E</color>
+
+    <color name="www">#FAF6F6</color>
+
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+
+    <color name="tab_text_selected">#0084e8</color>
+    <color name="tab_text_normal">#7597b3</color>
+</resources>

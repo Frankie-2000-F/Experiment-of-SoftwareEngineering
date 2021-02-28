@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">贴身会计</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="scan_text">将二维码/条形码放入框内, 即可自动扫描</string>
+
+</resources>

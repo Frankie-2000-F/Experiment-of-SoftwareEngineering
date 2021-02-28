@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:id="@+id/imageView2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/icon" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="20sp"
+                    android:layout_marginTop="10dp"
+                    android:text="当前登录用户:"/>
+                <TextView
+                    android:id="@+id/tv_userID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:textSize="20sp"
+                    android:text=""
+                    android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/textview_border"
+                android:paddingLeft="30dp"
+                android:text="我的账户"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_weixin"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/textview_border"
+                android:drawableLeft="@drawable/icon_weixin"
+                android:paddingLeft="30dp"
+                android:text="微信"
+                android:textSize="15sp"
+                />
+
+            <Button
+                android:id="@+id/btn_alipay"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+
+                android:background="@drawable/textview_border"
+                android:drawableLeft="@drawable/icon_alipay"
+                android:paddingVertical="5dp"
+                android:paddingLeft="30dp"
+                android:text="支付宝"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btn_bankCard"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:background="@drawable/textview_border"
+                android:drawableLeft="@drawable/icon_bankcard"
+                android:paddingVertical="5dp"
+                android:paddingLeft="30dp"
+                android:text="银行卡"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btn_campusCard"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+
+                android:background="@drawable/textview_border"
+                android:drawableLeft="@drawable/icon_campuscard"
+                android:paddingVertical="5dp"
+                android:paddingLeft="30dp"
+                android:text="校园卡"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/textview_border"
+                android:paddingLeft="30dp"
+                android:text="实用小工具"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_calculator"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/textview_border"
+                android:drawableLeft="@drawable/icon_info_calculator"
+                android:paddingLeft="30dp"
+                android:text="简易计算器"
+                android:textSize="15sp"
+                />
+
+            <Button
+                android:id="@+id/btn_scan"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+
+                android:background="@drawable/textview_border"
+                android:drawableLeft="@drawable/icon_info_scan"
+                android:paddingVertical="5dp"
+                android:paddingLeft="30dp"
+                android:text="扫描二维码"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btn_mortgage"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:background="@drawable/textview_border"
+                android:drawableLeft="@drawable/icon_mortgage"
+                android:paddingVertical="5dp"
+                android:paddingLeft="30dp"
+                android:text="房贷计算器"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:id="@+id/btn_exit"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="@drawable/image_exit" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
